@@ -64,8 +64,16 @@
             transition: 0.3s;
         }
 
+        /*버튼에 마우스 커서가 위치할때 컬러 변경*/
         .contact-btn:hover {
             background-color: #0077b6;
+        }
+
+        .btn-wrap {
+            display: flex;
+            gap: 0px;
+            /* 여기서 간격 조절 */
+            justify-content: left;
         }
     </style>
 </head>
@@ -82,6 +90,10 @@
         <h2>연락하기</h2>
         <p>전화: 051 - 753 - 5600(학원)</p>
         <p>메일 보내지마세요</p>
+        <!--<div class="btn-wrap">
+            <a href="mailto:bbat115@gmail.com" class="contact-btn">메일 보내기</a>
+            <a href="mailto:bbat115@gmail.com" class="contact-btn">메일 보내기</a>
+        </div>-->
         <a href="mailto:bbat115@gmail.com" class="contact-btn">메일 보내기</a>
     </div>
 </body>
